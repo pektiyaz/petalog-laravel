@@ -39,9 +39,10 @@ With the PetaLog Laravel Driver installed, exceptions will be automatically repo
 
 # Custom Logging
 Use the provided PetaLog::capture and PetaLog::log functions to send custom data and logs to the PetaLog project.
+
 ```php
 Copy code
-use Pektiyaz\PetaLogLaravel\Facades\PetaLog;
+use Pektiyaz\PetalogLaravel\PetaLogDriver\Facades\PetaLog;
 
 // Capture an exception
 try{
