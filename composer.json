@@ -1,0 +1,22 @@
+{
+    "name": "pektiyaz/petalog-laravel",
+    "description": "PetaLog is a powerful log and exception aggregation tool designed specifically for Laravel projects. It seamlessly captures exceptions from your Laravel applications and centralizes them in a user-friendly interface, allowing developers to efficiently monitor, analyze, and resolve issues.",
+    "type": "library",
+    "require-dev": {
+        "laravel/framework": "10.10"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Pektiyaz\\PetalogLaravel\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Pektiyaz Talibov",
+            "email": "pektiyaztalibov@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
