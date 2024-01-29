@@ -1,8 +1,7 @@
 <?php
 
-namespace Pektiyaz\PetalogLaravel\PetaLogDriver;
+namespace Pektiyaz\PetalogLaravel;
 
-use Pektiyaz\PetalogLaravel\PetaLogDriver\PetaLogDriver\Services\PetaLogService;
 
 class PetaLog
 {
