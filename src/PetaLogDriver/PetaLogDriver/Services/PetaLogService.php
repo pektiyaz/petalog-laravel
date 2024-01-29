@@ -1,6 +1,6 @@
 <?php
 
-namespace App\PetaLogDriver\Services;
+namespace Pektiyaz\PetalogLaravel\PetaLogDriver\PetaLogDriver\Services;
 
 use Illuminate\Support\Facades\Http;
 
