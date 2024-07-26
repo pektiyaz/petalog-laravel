@@ -25,6 +25,14 @@ class PetaLog
         }
     }
 
+    public static function admin($message, $resource, $level = 'error'){
+
+        (new TelecloudService())->send([
+            'message' => $message,
+            'type' => $level,
+            'resource' => $resource,
+        ]);
+    }
     public static function log($message, $context = [], $level = 'error'){
 
         (new PetaLogService())->send([
