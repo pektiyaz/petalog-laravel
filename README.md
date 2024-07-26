@@ -53,6 +53,9 @@ try{
 
 // Log custom data
 PetaLog::log('Hello World', ['key' => 'value'], 'debug');
+// Log to admin
+PetaLog::admin('Hello World', 'resource');
+PetaLog::admin('Hello World', 'resource', 'info');
 ```
 # Contributing
 We welcome contributions from the community! If you'd like to contribute to the PetaLog Laravel Driver
