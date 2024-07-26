@@ -1,7 +1,7 @@
 <?php
 
 namespace Pektiyaz\PetalogLaravel;
-
+use Illuminate\Support\Facades\Http;
 class TelecloudService
 {
     private ?string $url;
