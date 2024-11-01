@@ -31,6 +31,7 @@ class PetaLog
 
 
     public static function admin($message, $resource, $level = 'error'){
+        return;
 
         (new TelecloudService())->send([
             'message' => $message,
@@ -39,6 +40,7 @@ class PetaLog
         ]);
     }
     public static function log($message, $context = [], $level = 'error'){
+        return;
 
         (new PetaLogService())->send([
             'message' => $message,
@@ -55,6 +57,7 @@ class PetaLog
     }
 
     public static function capture(\Throwable $exception){
+        return;
 
         (new PetaLogService())->send([
             'message' => $exception->getMessage(),
