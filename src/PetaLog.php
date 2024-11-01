@@ -42,6 +42,7 @@ class PetaLog
     public static function log($message, $context = [], $level = 'error'){
         return;
 
+
         (new PetaLogService())->send([
             'message' => $message,
             'type' => 'log',
